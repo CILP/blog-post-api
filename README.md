@@ -34,8 +34,8 @@ http://localhost:3000/api
 ```
 
 ## Test the API
-Open a terminal or cmd and type
 Note: You need to have running the api
+Open a terminal or cmd and type
 ```
 $ npm test
 ```
