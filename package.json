@@ -1,0 +1,32 @@
+{
+  "name": "blog-post-api",
+  "version": "1.0.0",
+  "description": "An api for blog post",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/integration.test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "rest"
+  ],
+  "author": "Carlos Linares",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}

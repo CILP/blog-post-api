@@ -1,0 +1,13 @@
+{
+  "db": {
+    "mongo": {
+      "host": "localhost",
+      "port": 27017,
+      "database": "blogpost"
+    }
+  },
+  "server": {
+    "baseUrl": "/api",
+    "port": 3000
+  }
+}
